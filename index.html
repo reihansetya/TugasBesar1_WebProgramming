@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas besar 1</title>
+    <!-- my css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- frame kiri -->
+    <div class="kiri">
+        <h1>Portfolio</h1>
+        <span class="baris"> <img src="./img/img7maybe.png" alt="profile">
+        </span>
+        <a href="#" onclick="opentag('profile')">Profile</a>
+        <a href="#" onclick="opentag('project')">project</a>
+        <!-- <a href="#">Project</a>
+        <a href="#">Contact Me</a> -->
+        <div class="tombol">
+            <button id="btn" class="btn dark">Dark</button>
+            <button id="btn1" class="btn light">light</button>
+        </div>
+    </div>
+
+    <!-- end frame kiri -->
+
+    <!-- frame kanan -->
+    <main>
+        <div id="profile" class="container kanan1 tag">
+            <h1>Profile</h1>
+            <div class="kanan-content-atas">
+                <img src="./img/3.jpg" alt="profile">
+                <div class="atas-txt">
+                    <h2>About Me</h2> <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea laborum, quasi libero quaerat
+                        nesciunt
+                        corrupti magni eveniet quidem temporibus modi porro eum id voluptate velit ducimus nisi sit iure
+                        numquam doloribus odio esse at inventore ipsum. Delectus velit dolores illo enim cum, sint
+                        cumque
+                        omnis incidunt sequi. Dolorem, in dolores.</p>
+                </div>
+            </div>
+            <div class="kanan-content-bawah">
+                <div class="card">
+                    <div class="teks">
+                        <h2>Pendidikan:</h2>
+                        <ul class="list">
+                            <li>SD 09 Cipulir Jakarta</li>
+                            <li>SMP 48 Kebayoran Lama Jakarta</li>
+                            <li>SMK Al-Hikmah Jakarta</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="teks">
+                        <h2>Pengalaman:</h2>
+                        <ul class="list">
+                            <li>TVRI bagian tata artistik, Jakarta</li>
+                            <li>Adibhina kursus, Tanggerang</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div id="project" class="container kanan2 tag" style="display: none;">
+            <h1>Project pertemuan 2-5</h1>
+            <div class="frame">
+                <a href="./project/pertemuan_2.html" target="_blank">
+                    <img src="./img/P2.png" alt="">
+                </a>
+                <a href="./project/pertemuan3.html" target="_blank">
+                    <img src="./img/p3.png" alt="">
+                </a>
+                <a href="./project/pertemuan4 fix/index.html" target="_blank">
+                    <img src="./img/p4.png" alt="">
+                </a>
+                <a href="./project/pertemuan5.html" target="_blank">
+                    <img src="./img/p5.png" alt="">
+                </a>
+            </div>
+        </div>
+    </main>
+    <!-- end frame kanan -->
+
+
+    <!-- script js -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
